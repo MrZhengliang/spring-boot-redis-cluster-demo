@@ -1,0 +1,10 @@
+spring:
+  redis:
+    cluster:
+      nodes:
+        - redis1.msxf.lotest:7000
+        - redis1.msxf.lotest:7001
+        - redis2.msxf.lotest:7002
+        - redis2.msxf.lotest:7003
+        - redis3.msxf.lotest:7004
+        - redis3.msxf.lotest:7005
